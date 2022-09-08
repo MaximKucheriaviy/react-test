@@ -1,0 +1,17 @@
+.app{
+    background-color: rgb(7, 13, 29);
+    min-height: 100vh;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+    color: white;
+}
+
+ul, 
+ol{
+    list-style: none;
+    margin: 0;
+}

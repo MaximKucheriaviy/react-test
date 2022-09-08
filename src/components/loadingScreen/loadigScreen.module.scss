@@ -1,0 +1,36 @@
+.loadingOverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+.loadingImage{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    animation-name: rotation;
+    animation-duration: 2000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+img{
+    width: 100%;
+}
+
+@keyframes rotation{
+    from{
+        transform: translateX(-50%) translateY(-50%) rotateZ(0deg);
+    }
+    to{
+        transform: translateX(-50%) translateY(-50%) rotateZ(360deg);
+    }
+}

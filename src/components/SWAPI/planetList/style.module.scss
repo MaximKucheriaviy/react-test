@@ -1,0 +1,10 @@
+.listOfPerson{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    & li{
+        min-width: calc((100% - 120px) / 5);
+    }
+}

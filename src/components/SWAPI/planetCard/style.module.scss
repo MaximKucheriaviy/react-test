@@ -1,0 +1,15 @@
+.planetCard{
+    display: block;
+    color: white;
+    border: 3px solid rgb(0, 146, 61);
+    border-radius: 10px;
+    padding-left: 10px;
+
+
+    &:hover{
+        background-color: rgba(255, 68, 0, 0.445);
+    }
+    & h3{
+        font-size: medium;
+    }
+}

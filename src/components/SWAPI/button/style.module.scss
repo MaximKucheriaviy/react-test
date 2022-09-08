@@ -1,0 +1,12 @@
+.button{
+    margin-top: 10px;
+    padding: 10px;
+    min-width: 100px;
+    border-color: orangered;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    &:not(:last-child){
+        margin-right: 30px;
+    }
+}
